@@ -1,0 +1,150 @@
+.navegacao{
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-between;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px 70px;
+}
+.sobre a{
+   color: black;
+}
+.conect{
+   color: black;
+  padding: 10px;
+   border-radius: 5px;
+   border: 2 solid #e5e7eb;
+   background: rgb(255,239,239,230);
+}
+.inscre{
+  background: rgba(255,90,95,1); 
+  color: white;
+  border: 2 solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ a {
+   margin: 20px;
+   text-decoration: none;
+   
+}
+.centrar-imagem{
+  background-image: url(aca.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+ height: 800px;
+ width: 1200px;
+ margin: 0 auto;
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.font{
+   font-size: 30px;
+}
+
+.container{
+   display: grid;
+   max-width: 1200px;
+   padding: 40px 20px;
+   margin: 0 auto;
+   grid-template-columns: 2fr 1fr;
+   align-items: center;
+   }
+
+
+
+.imagem {
+   
+ width: 500px; 
+float: left; 
+margin: 0 auto;
+
+
+}
+
+.frase {
+   
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+.outros{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.tudo {
+ margin: 20px;
+ width: 200px;
+}
+
+ .outros img{
+   width: 50px;
+   height: 40px;
+   border-radius: 5px;
+   margin: 20px;
+   
+ }
+ .venda{
+   text-align: center;
+ }
+
+ .carro{
+   display: flex;
+
+ }
+ .carousel-inner{
+   display: flex;
+ }
+ .card-body{
+   text-align: center;
+ }
+ .card{
+   margin: 0.5em;
+   width: calc(100%/3);
+ }
+
+ .prox{
+   background: rgba(204, 72, 76, 1);
+   padding: 100px;
+   margin-top: 30px;
+   justify-content: center;
+   text-align: center;
+  
+ }
+
+.prox a{
+   
+   background: rgb(198, 17, 23); 
+   color: white;
+   border: 2 solid;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.row{
+  text-align: center;
+  margin: 200px;
+  
+}
+
+.logo{
+   width: 100px;
+}
+.logo1{
+   display: flex;
+   align-items: center;
+}
+
+
+
+
+
